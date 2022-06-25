@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<banner>
+	<globals 
+		xPos="center" yPos="center"
+		width="930" height="373"
+		currentItem="0" radius="0" randomize="false" autoPlay="true" shadow="true"
+		cssFile="css/banner.css"
+	>
+		<item width="900" height="350" bgColor="#000000" />
+		<buttons show="true" type="black" xPos="right" yPos="bottom" padding="5" margin="20" />
+		<arrow show="true" hideOnRollOut="true" color="#FFFFFF" alpha="0.3" margin="20" />
+		<timerClock show="true" color="#FFFFFF" alpha="0.5" height="4" yPos="top" margin="0" />
+		
+	</globals>
+	<item src="images/3.png" timer="9" link="#">
+		<animation type="tile" tileDirection="vertical" tileNumber="10" tileTime="0.8" tileFadeTime="2" tileFxTime="2" tileFxStrength="20" tileDelay="0.08" tilePos="top" transitionType="easeOutExpo" />
+		
+		
+	</item>
+	<item src="images/1.jpg" timer="10" link="#/" target="_blank">
+		<animation type="tile" tileDirection="vertical" tileNumber="10" tileTime="0.8" tileFadeTime="2" tileFxTime="2" tileFxStrength="20" tileDelay="0.08" tilePos="top" transitionType="easeOutExpo" />
+		
+	</item>
+	
+	<item src="images/2.jpg" timer="8" link="#" target="_blank">
+		<animation type="curtain" tileDirection="vertical" tileNumber="16" tileTime="1.2" tileFadeTime="1.5" tileFxTime="2" tileFxStrength="10" tileDelay="0" tilePos="left" transitionType="easeOutQuint" />
+		
+	</item>
+	<item src="images/4.swf" timer="6">
+		<animation type="alpha" time="1.2" transitionType="easeOutSine" />
+	
+	</item>
+	<item src="images/5.jpg" timer="8" link="http://www.allfla.ru" target="_blank">
+		<animation type="curtain" tileDirection="horizontal" tileNumber="6" tileTime="0.6" tileFadeTime="2" tileFxTime="2" tileFxStrength="20" tileDelay="0" tilePos="top" transitionType="easeOutSine" />
+		
+	</item>
+	<item src="images/6.jpg" timer="7">
+		<animation type="tile" tileDirection="vertical" tileNumber="1" tileTime="0.8" tileFadeTime="0.8" tileFxTime="1" tileFxStrength="10" tileDelay="0.08" tilePos="bottom" transitionType="easeOutCircle" />
+	
+	</item>
+	<item src="images/7.jpg" timer="8" link="#" target="_blank">
+		<animation type="tile" tileDirection="horizontal" tileNumber="5" tileTime="0.8" tileFadeTime="2" tileFxTime="2" tileFxStrength="20" tileDelay="0.08" tilePos="left" transitionType="easeOutSine" />
+		
+	</item>	
+	<item src="images/8.jpg" timer="5" link="http://www.allfla.ru" target="_blank">
+		<animation type="curtain" tileDirection="horizontal" tileNumber="6" tileTime="0.6" tileFadeTime="2" tileFxTime="2" tileFxStrength="20" tileDelay="0" tilePos="top" transitionType="easeOutSine" />
+	</item>	
+</banner>
